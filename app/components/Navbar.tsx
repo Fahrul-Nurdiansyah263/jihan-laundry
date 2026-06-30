@@ -49,7 +49,7 @@ export default function Navbar() {
           </a>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-6 xl:space-x-8">
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -62,7 +62,7 @@ export default function Navbar() {
           </div>
 
           {/* Desktop CTA */}
-          <div className="hidden md:flex items-center">
+          <div className="hidden lg:flex items-center">
             <button
               onClick={() => openModal()}
               id="nav-cta-btn"
@@ -74,7 +74,7 @@ export default function Navbar() {
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden flex items-center">
+          <div className="lg:hidden flex items-center">
             <button
               id="mobile-menu-button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -94,7 +94,7 @@ export default function Navbar() {
         id="mobile-menu"
         className={`${
           mobileMenuOpen ? "block" : "hidden"
-        } md:hidden bg-white border-t border-slate-100 px-4 pt-2 pb-6 space-y-3 shadow-lg`}
+        } lg:hidden bg-white border-t border-slate-100 px-4 pt-2 pb-6 space-y-3 shadow-lg`}
       >
         {navLinks.map((link) => (
           <a

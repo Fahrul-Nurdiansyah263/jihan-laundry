@@ -75,7 +75,7 @@ export default function ServicesSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16">
           {services.map((svc) => (
             <div
               key={svc.serviceKey}

@@ -110,28 +110,28 @@ export default function HeroSection() {
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-4 pt-8 border-t border-slate-200/60 max-w-md mx-auto lg:mx-0">
+            <div className="grid grid-cols-3 gap-3 pt-8 border-t border-slate-200/60 max-w-lg mx-auto lg:mx-0">
               <div>
-                <span className="block text-2xl sm:text-3xl font-bold text-blue-600">
+                <span className="block text-xl sm:text-2xl lg:text-3xl font-bold text-blue-600">
                   30 Menit
                 </span>
-                <span className="text-xs sm:text-sm text-slate-500 font-medium">
+                <span className="text-xs text-slate-500 font-medium">
                   Respons Jemput
                 </span>
               </div>
               <div>
-                <span className="block text-2xl sm:text-3xl font-bold text-blue-600">
+                <span className="block text-xl sm:text-2xl lg:text-3xl font-bold text-blue-600">
                   5k+
                 </span>
-                <span className="text-xs sm:text-sm text-slate-500 font-medium">
+                <span className="text-xs text-slate-500 font-medium">
                   Pelanggan Puas
                 </span>
               </div>
               <div>
-                <span className="block text-2xl sm:text-3xl font-bold text-blue-600">
+                <span className="block text-xl sm:text-2xl lg:text-3xl font-bold text-blue-600">
                   100%
                 </span>
-                <span className="text-xs sm:text-sm text-slate-500 font-medium">
+                <span className="text-xs text-slate-500 font-medium">
                   Higienis &amp; Rapi
                 </span>
               </div>
